@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Notícia</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <script type="text/javascript">
+    window.onload = function () {
+      document.querySelector(".hamburger").addEventListener("click", function () {
+        if (document.querySelector(".navMenu ul").style.display == 'flex') {
+          document.querySelector(".navMenu ul").style.display = 'none';
+        } else {
+          document.querySelector(".navMenu ul").style.display = 'flex'
+        }
+      });
+    };
+
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header_section">
+      <div class="header_section_1">
+        <img src="assets/image/Logo-MovParts-Horizontal-branco.svg" alt="">
+      </div>
+      <div class="header_section_2">
+
+        <nav class="navMenu">
+          <div class="hamburger">
+            <img src="/assets/image/menuIcon.png" alt="">
+          </div>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/sobreNos.html">Institucional</a></li>
+            <li class="abrirMultimarcas">
+              <a href="/multimarcas.html">
+                Empilhadeiras Multimarcas
+                <div class="menuMult">
+                  <ul>
+                    <li>
+                      <a href="/multimarcas.html">
+                        <div class="option">
+                          <div class="menuMultTit">
+                            <img src="/assets/image/logoCombustaoAmarelo.svg" alt="">
+                            <p class="h6">Combustão interna</p>
+                          </div>
+                          <div class="menuMultDesc">
+                            <p class="body2">Opção perfeita para aplicações externas e preparadas para funcionar em clima úmido, pois, empilhadeiras de elevação têm uma grande dimensão de distância do solo. Útil para trabalhar em pavimentos de asfalto ou em terrenos não pavimentados.</p>
+                          </div>
+                          <div class="verProdutos">
+                            <a href="/multimarcas.html">
+                              Ver produtos >
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/multimarcas.html">
+                        <div class="option">
+                          <div class="menuMultTit">
+                            <img src="/assets/image/logoEletricoAmarelo.svg" alt="">
+                            <p class="h6">Empilhadeiras Elétricas</p>
+                          </div>
+                          <div class="menuMultDesc">
+                            <p class="body2">Mais sustentáveis do que empilhadeiras com combustão interna, as empilhadeiras elétricas são mais silenciosas e não geram e nem liberam emissões nocivas no meio ambiente.
+                              Mais compactas e fáceis de manobrar. Tenha mais economia de custo e aumente sua produtividade com uma empilhadeira elétrica.</p>
+                          </div>
+                          <div class="verProdutos">
+                            <a href="/multimarcas.html">
+                              Ver produtos >
+                            </a>
+                          </div>
+                        </div>
+
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/multimarcas.html">
+                        <div class="option">
+                          <div class="menuMultTit">
+                            <img src="/assets/image/logoArmazemAmarelo.svg" alt="">
+                            <p class="h6">Empilhadeiras Elétricas de Armazém</p>
+                          </div>
+                          <div class="menuMultDesc">
+                            <p class="body2">Opção perfeita para aplicações externas e preparadas para funcionar em clima úmido, pois, empilhadeiras de elevação têm uma grande dimensão de distância do solo. Útil para trabalhar em pavimentos de asfalto ou em terrenos não pavimentados.</p>
+                          </div>
+                          <div class="verProdutos">
+                            <a href="/multimarcas.html">
+                              Ver produtos >
+                            </a>
+                          </div>
+                        </div>
+
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </a>
+            </li>
+            <li><a href="/pecasServicos.html">Peças e serviços</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li class="abrirContato">
+              <a href="/faleConosco1.html">
+                Contato
+                <ul class="contatoMenu">
+                  <li><a href="/faleConosco1.html">Fale conosco</a></li>
+                  <li><a href="/sejaParceiro.html">Seja Parceiro</a></li>
+                  <li><a href="/trabalheConosco.html">Trabalhe Conosco</a></li>
+                </ul>
+              </a>
+            </li>
+
+
+          </ul>
+        </nav>
+
+      </div>
+      <div class="header_section_3">
+        <div class="busca">
+          <form method="GET">
+            <input type="text" placeholder="Faça a sua busca" />
+          </form>
+          <a href="">
+            <div class="busca_img">
+              <img src="assets/image/search 1 (Traced).svg" alt="">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="blogInt">
+    <div class="imgInicBlogInterno">
+      <img src="/assets/image/inicioBlogInterno.jpg" alt="">
+    </div>
+    <div class="conteudoBlogInterno">
+      <div class="titBlogDestaque">
+        <h1 class="h1">Título da matéria de blog em destaque</h1>
+      </div>
+      <div class="descBlogDestaque desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat at aliquam sit ultricies vulputate in laoreet. Amet scelerisque sem orci mattis. In nec pellentesque sit pharetra at </p>
+      </div>
+      <div class="autorRedes">
+        <div class="autor">
+          <p class="sub1">nome do autor</p>
+          <p class="sub2">01 / jan</p>
+        </div>
+        <div class="redesAutor">
+          <a href="https://www.facebook.com/beatzmarketing" target="_blank"><img src="assets/image/logoFaceBlack.svg" alt=""></a>
+          <a href="https://www.instagram.com/beatzdigital/" target="_blank"><img src="assets/image/logoInstaBlack.svg" alt=""></a>
+          <a href="https://www.youtube.com/c/BeatzDigital" target="_blank"><img src="assets/image/logoYouTubeBlack.svg" alt=""></a>
+          <a href="https://twitter.com/agenciaalquati" target="_blank"><img src="assets/image/logoTwitterBlack.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="conteudoNoticia desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat at aliquam sit ultricies vulputate in laoreet. Amet scelerisque sem orci mattis. In nec pellentesque sit pharetra at neque, augue blandit. Velit at vitae penatibus tempus a. Aliquet eu imperdiet vulputate sed diam. <br>
+          Auctor in at vivamus dolor amet sed laoreet donec maecenas. Proin id sit dignissim mauris nisl volutpat. Mauris scelerisque justo at phasellus a imperdiet. Ac lorem quam aliquam in in aliquam ultrices. Dictum eu non tincidunt tempus elementum augue mauris. Pulvinar urna tellus vulputate sapien tortor, mattis sed viverra. Ut et volutpat ipsum, egestas in tincidunt dictumst. Quam nunc dolor, porttitor cras cursus tristique. Integer pulvinar mattis platea sapien mauris leo sit vestibulum risus. Mauris amet pulvinar blandit quam venenatis. Risus vestibulum lacus risus condimentum placerat enim nullam in libero. Vitae sodales at adipiscing tincidunt vitae. Nisl tempor, volutpat erat risus gravida neque. Condimentum risus, ut erat ornare. <br>
+          Et nulla mattis amet bibendum elementum facilisi. Feugiat nunc vitae metus sit at volutpat. Eu egestas ut sit semper eu, quis elementum. Viverra fusce consectetur morbi diam. Hendrerit rhoncus, duis odio odio nibh condimentum tincidunt maecenas lectus. Id ut et, nunc aliquam donec. <br>Nisi, venenatis egestas leo amet gravida. Commodo nunc, dictum nunc pellentesque placerat convallis est proin. Massa nulla viverra suspendisse quis lacus pretium rhoncus id. Id aenean commodo suscipit bibendum viverra blandit purus. Arcu, dolor sed donec egestas aliquam proin pharetra. Donec nisi eleifend.</p>
+
+        <img src="/assets/image/imgMeioBlogInterno.jpg" alt="">
+
+      </div>
+      <div class="conteudoNotSub">
+        <p class="h2">Subtítulo</p>
+        <br>
+        <p class="conteudoNoticia desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat at aliquam sit ultricies vulputate in laoreet. Amet scelerisque sem orci mattis. In nec pellentesque sit pharetra at neque, augue blandit. Velit at vitae penatibus tempus a. Aliquet eu imperdiet vulputate sed diam. <br>
+          Auctor in at vivamus dolor amet sed laoreet donec maecenas. Proin id sit dignissim mauris nisl volutpat. Mauris scelerisque justo at phasellus a imperdiet. Ac lorem quam aliquam in in aliquam ultrices. Dictum eu non tincidunt tempus elementum augue mauris. Pulvinar urna tellus vulputate sapien tortor, mattis sed viverra. Ut et volutpat ipsum, egestas in tincidunt dictumst. Quam nunc dolor, porttitor cras cursus tristique. Integer pulvinar mattis platea sapien mauris leo sit vestibulum risus. Mauris amet pulvinar blandit quam venenatis. Risus vestibulum lacus risus condimentum placerat enim nullam in libero. Vitae sodales at adipiscing tincidunt vitae. Nisl tempor, volutpat erat risus gravida neque. Condimentum risus, ut erat ornare. <br>
+          Et nulla mattis amet bibendum elementum facilisi. Feugiat nunc vitae metus sit at volutpat. Eu egestas ut sit semper eu, quis elementum. Viverra fusce consectetur morbi diam. Hendrerit rhoncus, duis odio odio nibh condimentum tincidunt maecenas lectus. Id ut et, nunc aliquam donec. <br>Nisi, venenatis egestas leo amet gravida. Commodo nunc, dictum nunc pellentesque placerat convallis est proin. Massa nulla viverra suspendisse quis lacus pretium rhoncus id. Id aenean commodo suscipit bibendum viverra blandit purus. Arcu, dolor sed donec egestas aliquam proin pharetra. Donec nisi eleifend.</p>
+      </div>
+      <div class="assineArea">
+        <div class="assine">
+          <div class="logoAssine">
+            <img src="/assets/image/newsLogo.svg" alt="">
+          </div>
+          <div class="assineDesc">
+            <h2 class="h2">
+              Assine nossa Newsletter _
+            </h2>
+            <form action="">
+              <label>
+                <input class="forms" type="text" name="nome" placeholder="Nome:" required autocomplere="on" title="Insira seu nome completo!" />
+              </label>
+            </form>
+            <a href="">
+              <div class="assineButton button">
+                <p>Assinar</p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="blog">
+      <div class="blogTitulo h2">
+        <h2>Blog_</h2>
+      </div>
+      <div class="blogCont">
+        <a href="/blogInterno.html">
+          <div class="cont">
+            <div class="imgMateria">
+              <img src="/assets/image/blogImg1.png" alt="">
+            </div>
+            <div class="escritoMateria">
+              <p class="dataMateria sub2">01 / jan</p>
+              <p class="tituloMateria">Título da matéria de blog</p>
+              <p class="descMateria body2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit semper suspendisse aliquet facilisi habitant in sit. Tortor nulla quis dictumst nisl praesent. Condimentum</p>
+              <p class="maisMateria">
+                <a href="
+                "><img src="/assets/image/maisMateria.svg" alt=""></a>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/blogInterno.html">
+          <div class="cont">
+            <div class="imgMateria">
+              <img src="/assets/image/blogImg2.png" alt="">
+            </div>
+            <div class="escritoMateria">
+              <p class="dataMateria sub2">01 / jan</p>
+              <p class="tituloMateria">Título da matéria de blog</p>
+              <p class="descMateria body2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit semper suspendisse aliquet facilisi habitant in sit. Tortor nulla quis dictumst nisl praesent. Condimentum</p>
+              <p class="maisMateria">
+                <a href="
+                "><img src="/assets/image/maisMateria.svg" alt=""></a>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="/blogInterno.html">
+          <div class="cont">
+            <div class="imgMateria">
+              <img src="/assets/image/blogImg3.png" alt="">
+            </div>
+            <div class="escritoMateria">
+              <p class="dataMateria sub2">01 / jan</p>
+              <p class="tituloMateria">Título da matéria de blog</p>
+              <p class="descMateria body2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit semper suspendisse aliquet facilisi habitant in sit. Tortor nulla quis dictumst nisl praesent. Condimentum</p>
+              <p class="maisMateria">
+                <a href="
+                "><img src="/assets/image/maisMateria.svg" alt=""></a>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <a class="blogButton button" href="/blog.html">
+        <div>
+          <p>Veja mais!</p>
+        </div>
+      </a>
+    </div>
+
+
+
+
+    <div class="formOrcamento">
+      <div class="imgForm">
+        <img src="/assets/image/imgForm.png" alt="">
+      </div>
+      <div class="areaForm">
+        <h2 class="h2">Solicite um orçamento_</h2>
+        <p class="desc">Em breve um de nossos consultores entrará em contato com você</p>
+        <div class="">
+          <form action="">
+            <label>
+              <input class="forms desc" type="text" name="nome" placeholder="Nome:" required autocomplere="on" title="Insira seu nome completo!" />
+            </label>
+            <label>
+              <input class="forms desc" type="email" name="email" placeholder="E-mail:" required autocomplere="on" title="Insira seu Email!" />
+            </label>
+            <label>
+              <input class="forms desc" type="tel" name="tel" placeholder="Telefone:" maxlength="11" minlength="11" title="Insira seu Telefone!" />
+            </label>
+            <label>
+              <input class="forms desc" type="text" name="empresa" placeholder="Empresa:" required autocomplere="on" title="Insira sua Empresa!" />
+            </label>
+            <label>
+              <select class="desc" name="cidade" id="">
+                <option value="Cidade">Cidade:</option>
+                <option value="Cidade">Salto</option>
+                <option value="Cidade">Indaiatuba</option>
+                <option value="Cidade">Itu</option>
+                <option value="Cidade">Sorocaba</option>
+              </select>
+            </label>
+            <label>
+              <select name="Estado" id="estado">
+                <option value="Estado">Estado:</option>
+                <option value="Estado">Acre</option>
+                <option value="Estado">Alagoas</option>
+                <option value="Estado">Amapá</option>
+                <option value="Estado">Amazonas</option>
+                <option value="Estado">Bahia</option>
+                <option value="Estado">Ceará</option>
+                <option value="Estado">Espírito Santo</option>
+                <option value="Estado">Goías</option>
+                <option value="Estado">Maranhão</option>
+                <option value="Estado">Mato Grosso</option>
+                <option value="Estado">Mato Grosso do Sul</option>
+                <option value="Estado">Minas Gerais</option>
+                <option value="Estado">Pará</option>
+                <option value="Estado">Paraíba</option>
+                <option value="Estado">Paraná</option>
+                <option value="Estado">Pernambuco</option>
+                <option value="Estado">Piauí</option>
+                <option value="Estado">Rio de Janeiro</option>
+                <option value="Estado">Rio Grande do Norte</option>
+                <option value="Estado">Rio Grande do Sul</option>
+                <option value="Estado">Rondônia</option>
+                <option value="Estado">Roraima</option>
+                <option value="Estado">Santa Catarina</option>
+                <option value="Estado">São Paulo</option>
+                <option value="Estado">Sergipe</option>
+                <option value="Estado">Tocantins</option>
+                <option value="Estado">Distrito Federal</option>
+              </select>
+            </label>
+            <label>
+              <textarea id="textArea" class="forms desc" name="descricao" placeholder="*Mensagem:" required maxlength="140"></textarea>
+            </label>
+            <label class="inputFile">
+              Enviar Ficheiro
+              <input type="file" name="file" title="Insira um documento!" accept="application/pdf" />
+            </label>
+            <div class="formExpl body2">
+              <p>*Resposta obrigatória **Informações básicas para solicitar orçamento on-line: Envie-nos imagem das placas de identificação e técnica do equipamento, para registro de marca, modelo, série e ano; para garantir agilidade na solução da sua necessidade; quando seu pedido for rodas ou pneus, protetores e/ou câmaras; especifique as medidas ou programe uma visita técnica para oferecermos um orçamento mais preciso.</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <label class="inputButton button">
+              Entre em contato!
+              <input type="button" name="enviar" />
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="sub2">
+    <div class="conteudoFooter">
+      <div class="logoFooter">
+        <img src="assets/image/logo_footer.svg" alt="">
+      </div>
+      <div class="caminhosFooter">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/sobreNos.html">Institucional</a></li>
+          <li><a href="/multimarcas.html">Empilhadeiras Multimarcas</a></li>
+          <li><a href="/pecasServicos.html">Peças e serviços</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/faleConosco1.html">Fale conosco</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <div class="local">
+          <img src="assets/image/logoLocal.svg" alt="">
+          <p>Endereço:<br>Av. Silves, 1370 - Crespo <br> CEP 69.073-175 Manaus/AM</p>
+        </div>
+        <div class="contato">
+          <img src="assets/image/logoWhats.svg" alt="">
+          <p>+55 (92) 9 9263-1466</p>
+        </div>
+        <div class="redes">
+          <a href="https://www.facebook.com/beatzmarketing" target="_blank"><img src="assets/image/logoFace.svg" alt=""></a>
+          <a href="https://www.instagram.com/beatzdigital/" target="_blank"><img src="assets/image/logoInsta.svg" alt=""></a>
+          <a href="https://www.youtube.com/c/BeatzDigital" target="_blank"><img src="assets/image/logoYouTube.svg" alt=""></a>
+          <a href="https://twitter.com/agenciaalquati" target="_blank"><img src="assets/image/logoTwitter.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
